@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "opening": {
+      "file": "regex-开局界面.json",
+      "sha256": "DB2222AB0BD3EF968F524C2BD18E34D596EFD3B27D3CF39A27725117DF0516C6",
+      "bytes": 629483,
+      "id": "08653295-de58-45a8-a799-e42b30cf05f9"
+    },
+    "status": {
+      "file": "regex-状态栏界面.json",
+      "sha256": "465A765AC7D236C8F085C9EC35E63C15B83F3E4AC309E69D3A0AF4ABCDD604F5",
+      "bytes": 91456,
+      "id": "762b328a-8f78-40e4-966c-86d7bdeaed9a"
+    },
+    "phone": {
+      "file": "酒馆助手脚本-归真纪元-灵讯手机.json",
+      "sha256": "83798DA976E166064DF048C01D013DCC97FC702EDECACE381B6A2A304C39A8EC",
+      "bytes": 386118,
+      "id": "2e3af74d-e2fb-510a-ba25-7ea00ae721b6"
+    }
+  },
+  "outputs": {
+    "opening-bg.jpg": {
+      "sha256": "999DF8AB9B9EBB99229F1B8310F24623912CA6CFBD294144CDB20E6DEF3D6620",
+      "bytes": 187475
+    },
+    "opening.css": {
+      "sha256": "E96FC2D21E3D08A86861365E366A9BF7703F37B8C3AE802ECB0A242153AD7DE2",
+      "bytes": 36692
+    },
+    "opening.js": {
+      "sha256": "51692EA927046A156D249FFC1F373F101C5FFAF97E2A64A5FA77C6364C8037AE",
+      "bytes": 299454
+    },
+    "status.css": {
+      "sha256": "5DB4147F7D5673CDEF4B5A73A4784F8149D0A3F55DC8D766955C8495EE313F4B",
+      "bytes": 29030
+    },
+    "status.js": {
+      "sha256": "D6A349A1F14043ECC310E717FDAD1FD0AAE28E8656C1D4E8389FFC360EF88937",
+      "bytes": 56036
+    },
+    "phone.js": {
+      "sha256": "545EF2A1B7C7519A29467D6DB46E9601CA5B917AF57F774DC8CB4B1FC197534B",
+      "bytes": 378849
+    }
+  }
+}
