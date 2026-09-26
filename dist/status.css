@@ -15,3 +15,11 @@
 @media(max-width:576px){#gzjy-bar .gzjy-tabs{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @container(max-width:380px){#gzjy-bar .gzjy-top{grid-template-columns:28px minmax(0,1fr) auto;gap:7px;padding:11px 10px}#gzjy-bar .gzjy-brand{font-size:14px;letter-spacing:.05em}#gzjy-bar .gzjy-brand small{font-size:8px;letter-spacing:0}#gzjy-bar .gzjy-actions{gap:4px}#gzjy-bar .gzjy-seal{width:28px;height:32px;font-size:18px}#gzjy-bar .gzjy-tabs{margin:0 10px}}
 @media(max-width:400px){#gzjy-bar .gzjy-top{grid-template-columns:28px minmax(0,1fr) auto;gap:7px;padding:11px 10px}#gzjy-bar .gzjy-brand{font-size:14px;letter-spacing:.05em}#gzjy-bar .gzjy-brand small{font-size:8px;letter-spacing:0}#gzjy-bar .gzjy-actions{gap:4px}#gzjy-bar .gzjy-seal{width:28px;height:32px;font-size:18px}#gzjy-bar .gzjy-tabs{margin:0 10px}}
+
+/* Long descriptions use the full card width; short numeric facts remain compact. */
+#gzjy-bar .gzjy-row-long{display:grid;grid-template-columns:minmax(0,1fr);gap:6px;align-items:start;grid-column:1/-1}
+#gzjy-bar .gzjy-row-long>.gzjy-k{max-width:none;flex:initial;font-size:11px}
+#gzjy-bar .gzjy-row-long>.gzjy-v{width:100%;text-align:left;line-height:1.85;overflow-wrap:anywhere}
+#gzjy-bar .gzjy-fact-value{text-align:left;min-width:0}
+#gzjy-bar .gzjy-detail-body,#gzjy-bar .gzjy-note-field,#gzjy-bar .gzjy-note-field dd{min-width:0;max-width:100%}
+@media(max-width:560px){#gzjy-bar .gzjy-row:has(.gzjy-fact-value){display:grid;grid-template-columns:minmax(0,1fr);gap:5px}#gzjy-bar .gzjy-row:has(.gzjy-fact-value)>.gzjy-k{max-width:none;flex:initial}#gzjy-bar .gzjy-fact-value{width:100%;line-height:1.85}}
