@@ -23,3 +23,15 @@
 #gzjy-bar .gzjy-fact-value{text-align:left;min-width:0}
 #gzjy-bar .gzjy-detail-body,#gzjy-bar .gzjy-note-field,#gzjy-bar .gzjy-note-field dd{min-width:0;max-width:100%}
 @media(max-width:560px){#gzjy-bar .gzjy-row:has(.gzjy-fact-value){display:grid;grid-template-columns:minmax(0,1fr);gap:5px}#gzjy-bar .gzjy-row:has(.gzjy-fact-value)>.gzjy-k{max-width:none;flex:initial}#gzjy-bar .gzjy-fact-value{width:100%;line-height:1.85}}
+
+/* Shared critical layout; status.js also installs it for mixed cached CSS versions. */
+#gzjy-bar .gzjy-row-long{display:grid;grid-template-columns:minmax(0,1fr);gap:6px;align-items:start;grid-column:1/-1}
+#gzjy-bar .gzjy-row-long>.gzjy-k{max-width:none;flex:initial;font-size:11px}
+#gzjy-bar .gzjy-row-long>.gzjy-v{width:100%;text-align:left;line-height:1.85;overflow-wrap:anywhere;white-space:pre-wrap}
+#gzjy-bar .gzjy-fact-value{text-align:left;min-width:0}
+#gzjy-bar .gzjy-detail-body,#gzjy-bar .gzjy-note-field,#gzjy-bar .gzjy-note-field dd{min-width:0;max-width:100%}
+#gzjy-bar .gzjy-inventory-list{min-width:0;display:grid;grid-template-columns:minmax(0,1fr)}
+#gzjy-bar .gzjy-inventory-item{min-width:0;padding:11px 0;border-bottom:1px solid var(--c-border);text-align:left}
+#gzjy-bar .gzjy-item-name{margin:0;color:var(--c-text);font:inherit;font-weight:600;overflow-wrap:anywhere;white-space:pre-wrap}
+#gzjy-bar .gzjy-item-note{margin:6px 0 0;min-width:0;color:var(--c-dim);text-align:left;line-height:1.85;overflow-wrap:anywhere;white-space:pre-wrap}
+@media(max-width:560px){#gzjy-bar .gzjy-row:has(.gzjy-fact-value){display:grid;grid-template-columns:minmax(0,1fr);gap:5px}#gzjy-bar .gzjy-row:has(.gzjy-fact-value)>.gzjy-k{max-width:none;flex:initial}#gzjy-bar .gzjy-fact-value{width:100%;line-height:1.85}}
